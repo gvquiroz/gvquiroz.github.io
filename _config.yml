@@ -9,10 +9,8 @@ baseurl: '/'
 author:
   name: 'Gabriel Quiroz'
   email: gvquiroz@gmail.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  https://github.com/gvquiroz
-  linkedin_username:  https://www.linkedin.com/in/gabriel-quiroz-b1014a11a
+  github_username:  gvquiroz
+  linkedin_username:  gabriel-quiroz-b1014a11a
 
 defaults:
   -
