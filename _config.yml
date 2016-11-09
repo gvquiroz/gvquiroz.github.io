@@ -1,6 +1,6 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+title: Gabriel Quiroz
+description: 'Software Engineer'
 url: 'http://joshgerdes.com/jekyll-uno'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
@@ -11,8 +11,8 @@ author:
   email: gvquiroz@gmail.com
   twitter_username: joshgerdes
   facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  github_username:  https://github.com/gvquiroz
+  linkedin_username:  https://www.linkedin.com/in/gabriel-quiroz-b1014a11a
 
 defaults:
   -
