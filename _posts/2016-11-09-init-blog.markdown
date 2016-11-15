@@ -1,8 +1,14 @@
 ---
-title:  "Welcome to Gabiblog!"
+title:  "Blog inception! Creando un blog con Jekyll"
 date:   2016-11-09 15:04:23
-categories: [random]
-tags: [random]
+categories: [implementation]
+tags: [implementation]
 ---
 
-First post!
+## Usando vagrant para desarollo
+
+## Jekyll
+
+## Github pages como hosting
+
+## The blog is alive!, now what?
