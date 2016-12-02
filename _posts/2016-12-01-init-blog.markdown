@@ -1,0 +1,33 @@
+---
+title:  "Blog inception! Creando un blog con Jekyll parte 1"
+date:   2016-12-1 22:04:23
+categories: [implementation]
+tags: [implementation]
+---
+
+En busqueda de compartir conocimiento tuve la ocurrencia de encontrarme esta maravillosa herramienta llamada Jekyll, que junto a github pages no solo es rápida a implementar, sino elegante y cómoda a utilizar.
+
+Jekyll es un generador de paginas estáticas. En base a una configuración, un template liquid y a archivos escritos en formato markdown construye una pagina estática lista para ser utilizada en tu web server de preferencia.
+
+A continuación veremos los distintos pasos para crear un blog (Usando como ejemplo este mismo blog) y tenerlo operativo.
+
+Empezaremos forkeando el repositorio en el cual se encuentra este blog https://github.com/gvquiroz/gvquiroz.github.io
+
+## Usando vagrant para desarollo
+
+Ya que Jekyll requiere el uso de ruby y nodejs utilizaremos vagrant que permite tener un ambiente de desarrollo portable. Para ello deben instalar [VirtualBox](https://www.virtualbox.org/wiki/Downloads) y [Vagrant](https://www.vagrantup.com/downloads.html)
+
+En el repositorio encontraran un vagrant file que les instalara su ambiente de desarrollo en una maquina virtual.
+
+* Run **vagrant up**, para iniciar la maquina virtual
+* Run **vagrant ssh**, para ingresar a la maquina virtual a travez de ssh
+* Run **cd /vagrant**, para ir a la carpeta compartida
+
+Application
+
+* Run **bundle install** , para instalar las dependencias
+* Run **jekyll build**, para que jekyll cree la pagina statica
+* Run **jekyll serve --host 0.0.0.0**,  para arrancar la aplicación
+* Y en tu browser favorito **http://localhost:4000/**
+
+Yee! Ya tenemos nuestro blog corriendo de forma local, ahora desde nuestra maquina podemos abrir con cualquier editor de texto los archivos del proyecto y empezar a editar a nuestro gusto el blog
